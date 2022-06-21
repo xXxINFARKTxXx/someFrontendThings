@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <title>Lesson 2</title>
+    </head>
+    <body>
+        <header class="title">
+            <div class="container">
+                <a  class="logo" href="index.html">
+                    <img src="logo1.png" alt="Homepage logo" height="30" class="logo_img">
+                    <h1 class="logo">LogoMaker</h1>
+                </a>
+                <nav class="menu">
+                    <a href="#" class="menu__link">Homepage</a>
+                    <a href="#" class="menu__link">About</a>
+                    <a href="#" class="menu__link">Our products</a>
+                    <a href="#" class="menu__link">Contacts</a>
+                </nav>
+            </div>
+        </header>
+        <section class="second">
+            <form action="" class="form">
+                <h2 class="formTitle">Form</h2>
+                <div class="formItem">
+                    <label for="name">Имя</label>
+                    <input type="text" class="inputField" id="name">
+                </div>
+                <div class="formItem">
+                    <label for="ageCheck">Возраст больльше 18?</label>
+                    <input type="checkbox" class="inputField" id="ageCheck">
+                </div>
+                <div class="formItem">
+                    <label for="password">Пароль</label>
+                    <input type="password" class="inputField" id="password">
+                </div>
+                <div class="formItem">
+                    <label for="emailAddr">EMail</label>
+                    <input type="email" class="inputField" id="emailAddr">
+                </div>
+                <div class="formItem">
+                    <h3>Пол</h3>
+                    <label>Мужской</label><input type="radio" class="inputField" name="maleOrFemale" class="radiobutton" id="male" value="1">
+                    <label>Женский</label><input type="radio" class="inputField" name="maleOrFemale" class="radiobutton" id="female" value="2">
+                </div>
+                <div class="formItem">
+                    <button type="submit" id="mySubmit">Авторизироваться</button>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
