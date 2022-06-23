@@ -1,0 +1,122 @@
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Roboto Condensed', sans-serif; */
+
+body {
+    zoom: 125%;
+    margin: 0;
+    padding: 0;
+  }
+
+.main__title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 45px;
+}
+
+.background-img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-form {
+    padding: 30px;
+    border: 3px solid #30475E;
+    border-radius: 25px;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightslategray;
+    background-color: #F5F5F5;
+    width: 350px;
+    height: 550px;
+    flex-direction: column;
+}
+
+h1 {
+    width: 350px;
+    text-align: center;
+    border-bottom: 1px dashed #121212;
+}
+
+h2 {
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text__box {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.male-female__choose {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.checkbox {
+    margin-top: 150px;
+    margin-bottom: 25px;
+}
+
+.accounts__bar__title {
+    width: 350px;
+    text-align: center;
+}
+.accounts__bar {
+    display: flex;
+    padding: 15px;
+    justify-content:space-around;
+    text-decoration-line: none;
+}
+.account__logo {
+    width: 15px;
+    height: 15px;
+}
+.logo__ref {
+    text-decoration-line: none;
+}
+
+.sign-up__button {
+    margin-left: 115px;
+    background-color: #140c6a;
+    border: none;
+    border-bottom: 10px solid #606060;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.sign-up__button:hover {
+    background-color: #0e0949;
+}
+
+.sign-up__button:active {
+    margin-top: 4px;
+    border-bottom: 6px solid #474747;
+}
+
+.footer{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: flex-start;
+    color: #e4ed93;
+    background-color: #121212;
+    border-left: 0;
+    border-right: 0;
+  }
+  .footer-container {
+    background-color: rgb(158, 11, 92);
+  }
