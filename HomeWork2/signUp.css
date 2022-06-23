@@ -53,16 +53,18 @@ h2 {
 .text__box {
     width: 100%;
     border-radius: 3px;
+    margin-bottom: 15px;
 }
 
 .male-female__choose {
     display: flex;
     justify-content: space-between;
     padding-right: 50px;
+    margin-bottom: 15px;
 }
 
 .checkbox {
-    margin-top: 150px;
+    margin-top: 90px;
     margin-bottom: 25px;
 }
 
